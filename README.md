@@ -58,29 +58,6 @@ Cumulative calculations
 
 Business-oriented analytical metrics
 
-Data Model
-
-EMPLOYEES
-    │
-    ├── DEPARTMENT_ID → DEPARTMENTS → LOCATIONS → COUNTRIES → REGIONS
-    │
-    └── JOB_ID → JOBS
-
-Project Structure
-
-oracle-hr-workforce-analysis/
-├── README.md
-├── sql/
-│   ├── 01_department_concentration.sql
-│   ├── 02_geographic_distribution.sql
-│   └── 03_department_job_composition.sql
-├── docs/
-│   ├── business-context.md
-│   ├── analytical-questions.md
-│   └── findings.md
-└── data/
-    └── README.md
-
 Detailed business context, analytical questions and findings are available in the docs/ folder.
 
 Author
